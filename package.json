@@ -1,0 +1,22 @@
+{
+  "name": "lelotusfoulpoint",
+  "version": "1.0.0",
+  "description": "lelotusfoulpoint website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDarkMac/lelotusfoulpointe.git"
+  },
+  "keywords": [
+    "lotus"
+  ],
+  "author": "Ando Mamy & Abega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDarkMac/lelotusfoulpointe/issues"
+  },
+  "homepage": "https://github.com/TheDarkMac/lelotusfoulpointe#readme"
+}
