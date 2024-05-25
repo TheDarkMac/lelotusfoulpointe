@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/TheDarkMac/lelotusfoulpointe/issues"
   },
-  "homepage": "https://github.com/TheDarkMac/lelotusfoulpointe#readme"
+  "homepage": "https://github.com/TheDarkMac/lelotusfoulpointe#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
