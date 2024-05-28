@@ -5,7 +5,11 @@ module.exports = {
     "./assets/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lotus: '#f13fff'
+      }
+    },
   },
   plugins: [],
 }
