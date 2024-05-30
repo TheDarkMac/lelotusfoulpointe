@@ -612,12 +612,30 @@ video {
   position: relative;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .block {
@@ -640,28 +658,12 @@ video {
   height: 25%;
 }
 
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-full {
-  height: 100%;
+.h-\[60vh\] {
+  height: 60vh;
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-2\/4 {
-  width: 50%;
 }
 
 .w-24 {
@@ -680,12 +682,16 @@ video {
   resize: both;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
-.items-end {
-  align-items: flex-end;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -704,25 +710,36 @@ video {
   gap: 2.25rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-y-12 {
+  row-gap: 3rem;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\.\/images\/BUNGALOW_01\/BUNGALOW_01_1\.JPG\'\)\] {
-  background-image: url('../images/BUNGALOW_01/BUNGALOW_01_1.JPG');
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .bg-\[url\(\'\.\.\/images\/EXTERIEUR\/EXTERIEUR_01\.JPG\'\)\] {
   background-image: url('../images/EXTERIEUR/EXTERIEUR_01.JPG');
+}
+
+.bg-\[url\(\"background-image\"\)\] {
+  background-image: url("background-image");
+}
+
+.bg-\[url\(\'\.\.\/images\/Autr_photo\/308730508_596184905544179_4682401747476039275_n\.jpg\'\)\] {
+  background-image: url('../images/Autr_photo/308730508_596184905544179_4682401747476039275_n.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/Autre_photo\/308730508_596184905544179_4682401747476039275_n\.jpg\'\)\] {
+  background-image: url('../images/Autre_photo/308730508_596184905544179_4682401747476039275_n.jpg');
 }
 
 .bg-cover {
@@ -737,13 +754,14 @@ video {
   background-position: center;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .py-6 {
@@ -751,9 +769,13 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.px-11 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-4xl {
@@ -766,14 +788,9 @@ video {
   line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .shadow {
@@ -812,4 +829,8 @@ video {
 .hover\:text-lotus:hover {
   --tw-text-opacity: 1;
   color: rgb(241 63 255 / var(--tw-text-opacity));
+}
+
+.active\:border-transparent:active {
+  border-color: transparent;
 }
