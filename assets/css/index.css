@@ -2,32 +2,36 @@ a {
     text-decoration: none;
     color: black;
 }
-
 nav {
     width: 80dvw;
     margin-inline: 10dvw;
 }
 .dim-cards {
-    height: 40dvh;
+    height: 41dvh;
     aspect-ratio: 1/1;
 }
-.bg-img1 {
-    background-image: url('../images/BUNGALOW_02/BUNGALOW_02_3.JPG');
-    background-size: cover;
-    background-position: 50%;
-}
-.bg-img2 {
-    background-image: url('../images/BUNGALOW_07/BUNGALOW_07_1.JPG');
-    background-size: cover;
-    background-position: 50%;
-}
-.bg-img3 {
-    background-image: url('../images/Autre_photo/bungalow_04.jpg');
-    background-size: cover;
-    background-position: 50%;
-}
-
 .contour {
     height: max-content;
 }
-
+.cards .hotel_img {
+    position: relative;
+    overflow: hidden;
+}
+.cards .hotel_img img {
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.cards .hotel_img .booking {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.cards .hotel_img:hover img {
+    -webkit-transform: scale(1.19);
+    -ms-transform: scale(1.19);
+    transform: scale(1.19);
+}
