@@ -1,5 +1,5 @@
 .footer-area {
-    background: #04091e;
+    background: #010511;
     padding: 142px 0px;
 }
 
@@ -17,12 +17,12 @@
     color: #f3c300;
 }
 
-.single-footer-widget .instafeed {
+.single-footer-widget {
     margin-left: -5px;
     margin-right: -5px;
 }
 
-.single-footer-widget .instafeed li {
+.single-footer-widget li {
     margin: 5px;
 }
 
