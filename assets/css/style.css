@@ -706,12 +706,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-9 {
-  gap: 2.25rem;
-}
-
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
 }
 
 .gap-y-12 {
@@ -726,20 +726,12 @@ video {
   border-radius: 0.25rem;
 }
 
-.bg-\[url\(\'\.\.\/images\/EXTERIEUR\/EXTERIEUR_01\.JPG\'\)\] {
-  background-image: url('../images/EXTERIEUR/EXTERIEUR_01.JPG');
-}
-
-.bg-\[url\(\"background-image\"\)\] {
-  background-image: url("background-image");
-}
-
-.bg-\[url\(\'\.\.\/images\/Autr_photo\/308730508_596184905544179_4682401747476039275_n\.jpg\'\)\] {
-  background-image: url('../images/Autr_photo/308730508_596184905544179_4682401747476039275_n.jpg');
-}
-
 .bg-\[url\(\'\.\.\/images\/Autre_photo\/308730508_596184905544179_4682401747476039275_n\.jpg\'\)\] {
   background-image: url('../images/Autre_photo/308730508_596184905544179_4682401747476039275_n.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/EXTERIEUR\/EXTERIEUR_01\.JPG\'\)\] {
+  background-image: url('../images/EXTERIEUR/EXTERIEUR_01.JPG');
 }
 
 .bg-cover {
@@ -752,6 +744,11 @@ video {
 
 .bg-center {
   background-position: center;
+}
+
+.px-11 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
 }
 
 .px-16 {
@@ -767,11 +764,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-11 {
-  padding-left: 2.75rem;
-  padding-right: 2.75rem;
 }
 
 .text-center {
@@ -826,9 +818,9 @@ video {
   transition-duration: 700ms;
 }
 
-.hover\:text-lotus:hover {
+.hover\:text-lotus-pink2:hover {
   --tw-text-opacity: 1;
-  color: rgb(241 63 255 / var(--tw-text-opacity));
+  color: rgb(244 108 252 / var(--tw-text-opacity));
 }
 
 .active\:border-transparent:active {
