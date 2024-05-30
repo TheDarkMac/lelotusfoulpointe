@@ -16,6 +16,16 @@ nav {
     background-size: cover;
     background-position: 50%;
 }
+.bg-img2 {
+    background-image: url('../images/BUNGALOW_07/BUNGALOW_07_1.JPG');
+    background-size: cover;
+    background-position: 50%;
+}
+.bg-img3 {
+    background-image: url('../images/Autre_photo/bungalow_04.jpg');
+    background-size: cover;
+    background-position: 50%;
+}
 
 .contour {
     height: max-content;
