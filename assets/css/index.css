@@ -35,3 +35,7 @@ nav {
     -ms-transform: scale(1.19);
     transform: scale(1.19);
 }
+
+section{
+    padding-block: 2rem;
+}
