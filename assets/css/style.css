@@ -616,6 +616,10 @@ video {
   margin: 0px;
 }
 
+.m-6 {
+  margin: 1.5rem;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -639,6 +643,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.ms-0 {
+  margin-inline-start: 0px;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -649,6 +657,10 @@ video {
 
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -772,16 +784,16 @@ video {
   --tw-bg-opacity: 0.05;
 }
 
-.bg-\[url\(\'\.\.\/images\/BUNGALOW_NIGHT_01\.jpg\'\)\] {
-  background-image: url('../images/BUNGALOW_NIGHT_01.jpg');
+.bg-BUNGALOW_NIGHT_01 {
+  background-image:  url("../images/BUNGALOW_NIGHT_01.jpg");
 }
 
-.bg-\[url\(\'\.\.\/images\/EXTERIEUR_01\.JPG\'\)\] {
-  background-image: url('../images/EXTERIEUR_01.JPG');
+.bg-EXTERIEUR_02_dark {
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("../images/EXTERIEUR_02.jpg");
 }
 
-.bg-\[url\(\'\.\.\/images\/cover_image\.jpg\'\)\] {
-  background-image: url('../images/cover_image.jpg');
+.bg-cover_image_dark {
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("../images/cover_image.jpg");
 }
 
 .bg-cover {
@@ -813,6 +825,11 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-6 {
