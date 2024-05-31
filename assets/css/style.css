@@ -612,6 +612,10 @@ video {
   position: relative;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -628,6 +632,10 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-2 {
@@ -734,6 +742,22 @@ video {
   background-image: url('../images/EXTERIEUR/EXTERIEUR_01.JPG');
 }
 
+.bg-\[url\(\'\.\.\/assets\/images\/Autres_photo\/336675382_1186191992087119_1602348854406235610_n\.jpg\'\)\] {
+  background-image: url('../assets/images/Autres_photo/336675382_1186191992087119_1602348854406235610_n.jpg');
+}
+
+.bg-\[url\(\'\.\.\\assets\\images\\Autres_photo\\336675382_1186191992087119_1602348854406235610_n\.jpg\'\)\] {
+  background-image: url('..\assets\images\Autres_photo\336675382_1186191992087119_1602348854406235610_n.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/EXTERIEUR\/EXTERIEUR_03\.JPG\'\)\] {
+  background-image: url('../images/EXTERIEUR/EXTERIEUR_03.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/EXTERIEUR\/EXTERIEUR_0\.JPG\'\)\] {
+  background-image: url('../images/EXTERIEUR/EXTERIEUR_0.JPG');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -825,4 +849,10 @@ video {
 
 .active\:border-transparent:active {
   border-color: transparent;
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-screen {
+    height: 100vh;
+  }
 }
