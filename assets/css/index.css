@@ -46,3 +46,32 @@ nav {
 section {
     padding-block: 2rem;
 }
+
+.prices {
+    color: #f33cfc;
+}
+
+.bkng {
+    background-color: #f33cfc;
+}
+
+.bkng:hover {
+    animation: hovering 0.6s linear;
+    background-color: #945bfc;
+}
+
+@keyframes hovering {
+    from {
+        background-color: #f33cfc;
+    }
+
+    to {
+        background-color: #945bfc;
+    }
+}
+.hero_msg{
+    font-size: 4rem;
+}
+.m-6 {
+    margin-block: 25dvh;
+}
