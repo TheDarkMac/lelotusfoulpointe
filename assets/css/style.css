@@ -772,28 +772,16 @@ video {
   --tw-bg-opacity: 0.05;
 }
 
-.bg-\[url\(\'\.\.\/images\/Autre_photo\/308730508_596184905544179_4682401747476039275_n\.jpg\'\)\] {
-  background-image: url('../images/Autre_photo/308730508_596184905544179_4682401747476039275_n.jpg');
-}
-
-.bg-\[url\(\'\.\.\/images\/Autre_photo\/308782306_596184902210846_4804055806347350010_n\.jpg\'\)\] {
-  background-image: url('../images/Autre_photo/308782306_596184902210846_4804055806347350010_n.jpg');
-}
-
-.bg-\[url\(\'\.\.\/images\/EXTERIEUR\/EXTERIEUR_01\.JPG\'\)\] {
-  background-image: url('../images/EXTERIEUR/EXTERIEUR_01.JPG');
-}
-
-.bg-\[url\(\'\.\.\/images\/cover_image\.jpg\'\)\] {
-  background-image: url('../images/cover_image.jpg');
-}
-
 .bg-\[url\(\'\.\.\/images\/BUNGALOW_NIGHT_01\.jpg\'\)\] {
   background-image: url('../images/BUNGALOW_NIGHT_01.jpg');
 }
 
 .bg-\[url\(\'\.\.\/images\/EXTERIEUR_01\.JPG\'\)\] {
   background-image: url('../images/EXTERIEUR_01.JPG');
+}
+
+.bg-\[url\(\'\.\.\/images\/cover_image\.jpg\'\)\] {
+  background-image: url('../images/cover_image.jpg');
 }
 
 .bg-cover {
