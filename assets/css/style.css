@@ -784,6 +784,18 @@ video {
   background-image: url('../images/EXTERIEUR/EXTERIEUR_01.JPG');
 }
 
+.bg-\[url\(\'\.\.\/images\/cover_image\.jpg\'\)\] {
+  background-image: url('../images/cover_image.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/BUNGALOW_NIGHT_01\.jpg\'\)\] {
+  background-image: url('../images/BUNGALOW_NIGHT_01.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/EXTERIEUR_01\.JPG\'\)\] {
+  background-image: url('../images/EXTERIEUR_01.JPG');
+}
+
 .bg-cover {
   background-size: cover;
 }
