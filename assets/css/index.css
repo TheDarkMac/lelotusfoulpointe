@@ -2,26 +2,32 @@ a {
     text-decoration: none;
     color: black;
 }
+
 nav {
     width: 80dvw;
     margin-inline: 10dvw;
 }
+
 .dim-cards {
     height: 41dvh;
     aspect-ratio: 1/1;
 }
+
 .contour {
     height: max-content;
 }
+
 .cards .hotel_img {
     position: relative;
     overflow: hidden;
 }
+
 .cards .hotel_img img {
     -webkit-transition: all 0.4s linear;
     -o-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
+
 .cards .hotel_img .booking {
     position: absolute;
     bottom: 20px;
@@ -30,12 +36,13 @@ nav {
     -ms-transform: translate(-50%);
     transform: translate(-50%);
 }
+
 .cards .hotel_img:hover img {
     -webkit-transform: scale(1.19);
     -ms-transform: scale(1.19);
     transform: scale(1.19);
 }
 
-section{
+section {
     padding-block: 2rem;
 }
