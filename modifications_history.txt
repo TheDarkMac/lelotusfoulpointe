@@ -6,3 +6,4 @@ This file is for modifications history of files name for this project.
 /Autre photo/347421830_3243306332626962_6881797199124600663_n.jpg => BUNGALOW_03.jpg
 /Autre photo/347378645_1203388986987802_3694907399592559098_n.jpg => BUNGALOW_04.jpg
 /Autre_photo/157606573_759457321351981_7733551496985822438_n.jpg => BUNGALOW_NIGHT_01
+New_image_01 => PLAGE_03.avif
