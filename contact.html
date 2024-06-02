@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/linericon/style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <script src="./assets/js/index.js" defer></script>
@@ -40,9 +41,57 @@
                     </li>
                 </ul>
             </nav>
+
         </div>
     </header>
     <main class="">
+        <section id="map">
+            <div class="flex justify-center items-center">
+                <iframe class="p-8 w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.074119851571!2d49.50268777410704!3d-17.69395838324639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f57bff339da811%3A0x4b281f12210093c7!2sLe%20Lotus%20Bungalow%20-%20Foulpointe!5e0!3m2!1sfr!2smg!4v1717300433446!5m2!1sfr!2smg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="lg:flex w-screen px-11 gap-x-8">
+            <div class="lg:w-1/4 flex flex-col gap-y-4">
+                <div class="flex flex-row">
+                    <div >
+                        <i class="fa fa-house text-3xl text-yellow-500"></i>
+                    </div>
+                    <div class="flex flex-col justify-start">
+                        <span class="text-2xl">Tamatave,Madagascar</span>
+                        <span>Foulpoint</span>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-x-2">
+                    <div >
+                        <i class="fa fa-phone text-3xl text-yellow-500"></i>
+                    </div>
+                    <div class="flex flex-col justify-start">
+                        <span class="text-2xl">+261 34 </span>
+                        <span>Mon to Sun 8am to 9pm</span>
+                    </div>
+                </div><div class="flex flex-row gap-x-2">
+                    <div >
+                        <i class="fa fa-envelope text-3xl text-yellow-500"></i>
+                    </div>
+                    <div class="flex flex-col justify-start">
+                        <span class="text-2xl">bungalow@gmail.com</span>
+                        <span>Send us your query</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-3/4">
+                <form action="./" class="flex lg:flex-row flex-col grid-cols-2 lg:h-full gap-x-3 gap-y-6">
+                    <div class="flex flex-col gap-4 lg:w-1/2">
+                        <input type="text" placeholder="Enter your name" class="p-3 border-2">
+                        <input type="text" placeholder="Enter email adress" class="p-3 border-2">
+                        <input type="text" placeholder="Enter Subject" class="p-3 border-2">
+                    </div>
+                    <div class="lg:w-1/2">
+                        <textarea class="p-3 resize-none border-2 h-[225px] w-full " placeholder="Enter Message"></textarea>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="footer-area section_gap">
         <div class="container">
