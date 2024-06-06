@@ -72,3 +72,34 @@ section {
 .m-6 {
     margin-block: 25dvh;
 }
+
+.plates {
+    width: 320px;
+}
+
+.prices-2 {
+    color: #74bc44;
+}
+
+
+.plateImg, .plates-cards {
+    overflow: hidden;
+}
+
+.plates-cards img {
+    -webkit-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    transition: all 0.7s linear;
+}
+
+.plates-cards{
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.plates-cards:hover img {
+    -webkit-transform: scale(1.23) rotate(10deg);
+    -ms-transform: scale(1.23) rotate(10deg);
+    transform: scale(1.23) rotate(10deg);
+}
