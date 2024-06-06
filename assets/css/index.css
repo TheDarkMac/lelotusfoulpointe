@@ -64,9 +64,11 @@ section {
         background-color: #945bfc;
     }
 }
-.hero_msg{
+
+.hero_msg {
     font-size: 4rem;
 }
+
 .m-6 {
     margin-block: 25dvh;
 }
