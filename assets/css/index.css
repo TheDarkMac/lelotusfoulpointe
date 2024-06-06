@@ -3,11 +3,6 @@ a {
     color: black;
 }
 
-nav {
-    width: 80dvw;
-    margin-inline: 10dvw;
-}
-
 .dim-cards {
     height: 41dvh;
     aspect-ratio: 1/1;

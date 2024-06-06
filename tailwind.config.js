@@ -16,6 +16,9 @@ module.exports = {
           violet2:  '#d450ff'
         }
       },
+      height:{
+        '150' : '150vh',
+      },
       backgroundImage : {
         BUNGALOW_01_1_dark : 'linear-gradient(to bottom right, rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("../images/BUNGALOW_01_1.jpg")',
         BUNGALOW_01_1 : ' url("../images/BUNGALOW_01_1.jpg")',
@@ -37,10 +40,21 @@ module.exports = {
         EXTERIEUR_01 : ' url("../images/EXTERIEUR_01.jpg")',
         EXTERIEUR_02_dark : 'linear-gradient(to bottom right, rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("../images/EXTERIEUR_02.jpg")',
         EXTERIEUR_02 : ' url("../images/EXTERIEUR_02.jpg")',
-
-        
       }
     },
+    keyframes : {
+      nav : {
+        '0%': {
+          transform : 'translateY(-100px)'
+        },
+        '100%': {
+          transform : 'translateY(0px)'
+        }
+      }
+    },
+    animation:{
+      navsmouth : 'nav 1s linear'
+    }
   },
   plugins: [],
 }
