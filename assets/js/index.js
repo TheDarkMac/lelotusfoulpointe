@@ -10,7 +10,12 @@ setInterval(()=>{
         navbar.classList.remove('px-24')
         navbar.classList.add('fixed')
         navbar.classList.add('animate-navsmouth')
-    }else{
+    }else if(document.documentElement.scrollTop == 0){
+        if(navlist.classList.contains('h-screen')){
+            navbar.classList.remove('px-24')
+        }
+    }
+    else {
         navbar.classList.add('px-24')
         navbar.classList.remove('fixed')
         navbar.classList.remove('animate-navsmouth')
