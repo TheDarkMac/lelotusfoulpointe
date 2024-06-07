@@ -172,3 +172,21 @@ section {
     padding-block: 1ch;
     color: white;
 }
+#middle_logo {
+    position: absolute;
+    top: 25dvh;
+    left: 39dvw;
+}
+#middle_logo_Ind {
+    position: absolute;
+    top: 25dvh;
+    gap: 3ch;
+    right: 8dvw;
+}
+@media (min-width: 1800px) {
+    #middle_logo_Ind {
+        top: 34dvh;
+        gap: 5ch;
+        right: 11dvw;
+    }
+}
