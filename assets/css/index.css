@@ -70,7 +70,8 @@ section {
 }
 
 .m-6 {
-    margin-block: 25dvh;
+    margin-block: 5dvh;
+    margin-inline: auto;
 }
 
 .plates {
@@ -139,4 +140,8 @@ section {
 }
 .Markclr-2 {
     color: #f3c300;
+}
+
+.lgs {
+    width: 300px;
 }
