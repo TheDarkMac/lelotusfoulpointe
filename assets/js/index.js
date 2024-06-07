@@ -36,4 +36,4 @@ theO.addEventListener('click',()=>{
     burger3.classList.toggle('opacity-0')
 })
 
-/**factorisation p alu */
+
