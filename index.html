@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/booking.js" defer></script>
 </head>
 
 <body class="w-screen overflow-x-hidden">
@@ -56,7 +57,7 @@
                 <p>
                     Escape to Serenity – Relax in Luxury at Le Lotus Bungalow, Just Moments from the Beach
                 </p>
-                <a href="#" class="btn bkng text-light px-5">GET STARTED</a>
+                <a href="" class="btn bkng text-light px-5">GET STARTED</a>
             </div>
             <div class="lgs">
                 <img src="./assets/images/Logo_sans_fond.png" alt="logo">
@@ -115,7 +116,7 @@
                                                     <option data-display="Child">Child</option>
                                                     <option value="1">Child</option>
                                                     <option value="2">Baby</option>
-                                                    <option value="3">Child</option>
+                                                    <option value="3">Young</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -138,9 +139,16 @@
                                                     <option value="10">Bungalow 10</option>
                                                 </select>
                                             </div>
-                                            <a href="#"
+                                            <button id="bookingBtn"
                                                 class="book_now_btn button_hover bg-primary-500 text-white rounded-md px-4 py-2 hover:bg-primary-700 bg-lotus-pink2 hover:bg-lotus-violet1 my-1">Book
-                                                Now</a>
+                                                Now</button>
+                                            <div id="reservation-bgc"class="mb-2">
+                                                <div id="successMessage-rsv"
+                                                    class="initial-scale d-flex flex-row align-items-center justify-around text-center">
+                                                    <i class="fa">&#xf14a;</i>
+                                                    <p class="mb-0">Reservation success</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
