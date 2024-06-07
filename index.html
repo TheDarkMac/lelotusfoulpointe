@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/booking.js" defer></script>
 </head>
 
 <body class="w-screen overflow-x-hidden">
@@ -24,12 +25,16 @@
             <nav
                 class=" flex justify-between md:relative md:items-center md:flex-row flex-col px-6 py-3  bg-slate-50 text-slate-950">
                 <div class="flex justify-between items-center">
-                    <a href="" class="logo "><img src="./assets/images/Logo_sans_fond.png" alt="hotel bungalow logo" class="w-16"></a>
-                
+                    <a href="" class="logo "><img src="./assets/images/Logo_sans_fond.png" alt="hotel bungalow logo"
+                            class="w-16"></a>
+
                     <span class="md:hidden group top-1 bottom-1 right-4 flex flex-col gap-y-1 relative" id="theO">
-                        <span class="h-1 w-10 bg-lotus-pink2 group-hover:bg-lotus-violet1 origin-center burger1 transition-transform duration-700 ease-in"></span>
-                        <span class="h-1 w-10 bg-lotus-pink2 group-hover:bg-lotus-violet1 origin-center burger2 transition-transform duration-700 ease-in"></span>
-                        <span class="h-1 w-10 bg-lotus-pink2 group-hover:bg-lotus-violet1 burger3 transition-opacity duration-700 ease-in"></span>
+                        <span
+                            class="h-1 w-10 bg-lotus-pink2 group-hover:bg-lotus-violet1 origin-center burger1 transition-transform duration-700 ease-in"></span>
+                        <span
+                            class="h-1 w-10 bg-lotus-pink2 group-hover:bg-lotus-violet1 origin-center burger2 transition-transform duration-700 ease-in"></span>
+                        <span
+                            class="h-1 w-10 bg-lotus-pink2 group-hover:bg-lotus-violet1 burger3 transition-opacity duration-700 ease-in"></span>
                     </span>
                 </div>
                 <div>
@@ -52,10 +57,10 @@
                 <p>
                     Escape to Serenity – Relax in Luxury at Le Lotus Bungalow, Just Moments from the Beach
                 </p>
-                <a href="#" class="btn bkng text-light px-5">GET STARTED</a>
+                <a href="" class="btn bkng text-light px-5">GET STARTED</a>
             </div>
             <div class="lgs">
-                <img src="./assets/images/Logo_sans_fond.png" alt="">
+                <img src="./assets/images/Logo_sans_fond.png" alt="logo">
             </div>
         </div>
     </header>
@@ -63,91 +68,111 @@
         <section id="booking" class="px-24 w-screen z-10 lg:absolute lg:top-[-33vh]">
             <div class="hotel_booking_area position bg-white py-6">
                 <div class="container">
-                  <div class="hotel_booking_table flex flex-col">
-                    <div class="col-md-3 w-full">
-                      <h2>Book Your Room</h2>
-                    </div>
-                    <div class="col-md-9 w-full flex flex-col">
-                      <div class="booking_table">
-                        <div class="row flex flex-wrap">
-                          <div class="col-md-4 w-full px-4"> <div class="book_tabel_item">
-                              <div class="form-group my-1">
-                                <div class="input-group date" id="datetimepicker11">
-                                  <input type="text" class="form-control rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500" placeholder="Arrival Date">
-                                  <span class="input-group-addon rounded-md px-3 py-2">
-                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                  </span>
-                                </div>
-                              </div>
-                              <div class="form-group my-1">
-                                <div class="input-group date" id="datetimepicker1">
-                                  <input type="text" class="form-control rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500" placeholder="Departure Date">
-                                  <span class="input-group-addon rounded-md px-3 py-2">
-                                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                                  </span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4 w-full px-4"> <div class="book_tabel_item">
-                              <div class="input-group my-1">
-                                <select class="wide border rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
-                                  <option data-display="Adult">Adult</option>
-                                  <option value="1">Old</option>
-                                  <option value="2">Younger</option>
-                                  <option value="3">Potato</option>
-                                </select>
-                              </div>
-                              <div class="input-group my-1">
-                                <select class="wide border rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
-                                  <option data-display="Child">Child</option>
-                                  <option value="1">Child</option>
-                                  <option value="2">Baby</option>
-                                  <option value="3">Child</option>
-                                </select>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4 w-full px-4"> <div class="book_tabel_item">
-                              <div class="input-group my-1">
-                                <select class="wide rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
-                                  <option data-display="Child">Number of Bungalow</option>
-                                  <option value="1">Bungalow 1</option>
-                                  <option value="2">Bungalow 2</option>
-                                  <option value="3">Bungalow 3</option>
-                                  <option value="4">Bungalow 4</option>
-                                  <option value="5">Bungalow 5</option>
-                                  <option value="6">Bungalow 6</option>
-                                  <option value="7">Bungalow 7</option>
-                                  <option value="8">Bungalow 8</option>
-                                  <option value="9">Bungalow 9</option>
-                                  <option value="10">Bungalow 10</option>
-                                </select>
-                              </div>
-                              <a href="#" class="book_now_btn button_hover bg-primary-500 text-white rounded-md px-4 py-2 hover:bg-primary-700 bg-lotus-pink2 hover:bg-lotus-violet1 my-1">Book Now</a>
-                            </div>
-                          </div>
+                    <div class="hotel_booking_table flex flex-col">
+                        <div class="col-md-3 w-full">
+                            <h2>Book Your Room</h2>
                         </div>
-                      </div>
+                        <div class="col-md-9 w-full flex flex-col">
+                            <div class="booking_table">
+                                <div class="row flex flex-wrap">
+                                    <div class="col-md-4 w-full px-4">
+                                        <div class="book_tabel_item">
+                                            <div class="form-group my-1">
+                                                <div class="input-group date" id="datetimepicker11">
+                                                    <input type="text"
+                                                        class="form-control rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500"
+                                                        placeholder="Arrival Date">
+                                                    <span class="input-group-addon rounded-md px-3 py-2">
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group my-1">
+                                                <div class="input-group date" id="datetimepicker1">
+                                                    <input type="text"
+                                                        class="form-control rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500"
+                                                        placeholder="Departure Date">
+                                                    <span class="input-group-addon rounded-md px-3 py-2">
+                                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 w-full px-4">
+                                        <div class="book_tabel_item">
+                                            <div class="input-group my-1">
+                                                <select
+                                                    class="wide border rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
+                                                    <option data-display="Adult">Adult</option>
+                                                    <option value="1">Old</option>
+                                                    <option value="2">Younger</option>
+                                                    <option value="3">Potato</option>
+                                                </select>
+                                            </div>
+                                            <div class="input-group my-1">
+                                                <select
+                                                    class="wide border rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
+                                                    <option data-display="Child">Child</option>
+                                                    <option value="1">Child</option>
+                                                    <option value="2">Baby</option>
+                                                    <option value="3">Young</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 w-full px-4">
+                                        <div class="book_tabel_item">
+                                            <div class="input-group my-1">
+                                                <select
+                                                    class="wide rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
+                                                    <option data-display="Child">Number of Bungalow</option>
+                                                    <option value="1">Bungalow 1</option>
+                                                    <option value="2">Bungalow 2</option>
+                                                    <option value="3">Bungalow 3</option>
+                                                    <option value="4">Bungalow 4</option>
+                                                    <option value="5">Bungalow 5</option>
+                                                    <option value="6">Bungalow 6</option>
+                                                    <option value="7">Bungalow 7</option>
+                                                    <option value="8">Bungalow 8</option>
+                                                    <option value="9">Bungalow 9</option>
+                                                    <option value="10">Bungalow 10</option>
+                                                </select>
+                                            </div>
+                                            <button id="bookingBtn"
+                                                class="book_now_btn button_hover bg-primary-500 text-white rounded-md px-4 py-2 hover:bg-primary-700 bg-lotus-pink2 hover:bg-lotus-violet1 my-1">Book
+                                                Now</button>
+                                            <div id="reservation-bgc"class="mb-2">
+                                                <div id="successMessage-rsv"
+                                                    class="initial-scale d-flex flex-row align-items-center justify-around text-center">
+                                                    <i class="fa">&#xf14a;</i>
+                                                    <p class="mb-0">Reservation success</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              
+            </div>
+
         </section>
         <section id="accomodation">
             <div class="lg:h-1/4 flex flex-col justify-center items-center my-6 text-center">
                 <div class="text-5xl mb-4 text-center">Hotel Accomodation</div>
                 <p class="text-center w-7">
-                    Discover unparalleled hospitality and comfort at The Lotus Bungalow, 
-                    where our accommodations redefine luxury, promising an unforgettable stay tailored to your every need
+                    Discover unparalleled hospitality and comfort at The Lotus Bungalow,
+                    where our accommodations redefine luxury, promising an unforgettable stay tailored to your every
+                    need
                 </p>
             </div>
             <div class="d-flex flex-wrap px-11 gap-8 gap-y-12 justify-center">
                 <div class="d-flex flex-wrap md:px-11 gap-8 gap-y-12 justify-center">
                     <div class="contour cards mx-2">
                         <div class="hotel_img rounded">
-                            <img src="./assets/images/special_accomodation2.PNG" class="dim-cards" alt="">
+                            <img src="./assets/images/special_accomodation2.PNG" class="dim-cards" alt="room">
                             <a href="#"
                                 class="btn bkng booking mt-2 text-light align-self-end mx-auto mb-2 rounded-0 fw-bold px-3">
                                 BOOK NOW
@@ -160,7 +185,7 @@
                     </div>
                     <div class="contour cards mx-2">
                         <div class="hotel_img rounded">
-                            <img src="./assets/images/special_accomodation.PNG" class="dim-cards" alt="">
+                            <img src="./assets/images/special_accomodation.PNG" class="dim-cards" alt="room">
                             <a href="#"
                                 class="btn bkng booking mt-2 text-light align-self-end mx-auto mb-2 rounded-0 fw-bold px-3">
                                 BOOK NOW
@@ -173,7 +198,7 @@
                     </div>
                     <div class="contour cards mx-2">
                         <div class="hotel_img rounded">
-                            <img src="./assets/images/special_accomodation3.PNG" class="dim-cards" alt="">
+                            <img src="./assets/images/special_accomodation3.PNG" class="dim-cards" alt="room">
                             <a href="#"
                                 class="btn bkng booking mt-2 text-light align-self-end mx-auto mb-2 rounded-0 fw-bold px-3">
                                 BOOK NOW
@@ -199,7 +224,7 @@
                     </div>
                     <div class="contour cards mx-2">
                         <div class="hotel_img rounded">
-                            <img src="./assets/images/normal_accomodation1.PNG " class="dim-cards" alt="">
+                            <img src="./assets/images/normal_accomodation1.PNG " class="dim-cards" alt="room">
                             <a href="#"
                                 class="btn bkng booking mt-2 text-light align-self-end mx-auto mb-2 rounded-0 fw-bold px-3">
                                 BOOK NOW
@@ -212,7 +237,7 @@
                     </div>
                     <div class="contour cards mx-2">
                         <div class="hotel_img rounded">
-                            <img src="./assets/images/normal_accomodation.PNG" class="dim-cards" alt="">
+                            <img src="./assets/images/normal_accomodation.PNG" class="dim-cards" alt="room">
                             <a href="#"
                                 class="btn bkng booking mt-2 text-light align-self-end mx-auto mb-2 rounded-0 fw-bold px-3">
                                 BOOK NOW
@@ -230,7 +255,7 @@
             <div class="h-1/4 flex flex-col justify-center items-center my-5">
                 <div class="text-5xl mb-4 text-center">Our Delicious plates</div>
                 <p class="text-center">
-                    Ignite your taste buds with an explosion of unexpected flavors - 
+                    Ignite your taste buds with an explosion of unexpected flavors -
                     experience a culinary adventure unlike any other!
                 </p>
             </div>
@@ -242,7 +267,8 @@
                     <div class="card-body">
                         <h4 class="card-title">Grilled fish</h4>
                         <p>
-                            A whole grilled fish, seasoned and served on a bed of lettuce leaves, garnished with slices of lemon and tomato
+                            A whole grilled fish, seasoned and served on a bed of lettuce leaves, garnished with slices
+                            of lemon and tomato
                         </p>
                     </div>
                     <h4 class="prices-2 fw-bold text-center">
@@ -256,7 +282,8 @@
                     <div class="card-body">
                         <h4 class="card-title">Ripe plantains with french fries</h4>
                         <p>
-                            This dish combines salty, crispy french fries with wedges of sweet, ripe plantains for a delightful textural and flavor contrast.
+                            This dish combines salty, crispy french fries with wedges of sweet, ripe plantains for a
+                            delightful textural and flavor contrast.
                         </p>
                     </div>
                     <h4 class="prices-2 fw-bold text-center">
@@ -270,7 +297,8 @@
                     <div class="card-body">
                         <h4 class="card-title">Skewers of grilled shrimp and scallops</h4>
                         <p>
-                            Plump shrimp and seared scallops are threaded on skewers for a light and flavorful summer grill featuring the bounty of the sea.
+                            Plump shrimp and seared scallops are threaded on skewers for a light and flavorful summer
+                            grill featuring the bounty of the sea.
                         </p>
                     </div>
                     <h4 class="prices-2 fw-bold text-center">
@@ -284,47 +312,58 @@
                 <div class="flex flex-col justify-center items-center my-10 gap-y-3">
                     <h2 class="text-4xl text-white">Le Lotus Bungalow Facilities</h2>
                     <span class="text-white text-center w-7">
-                        Experience unparalleled luxury and comfort at The Lotus Bungalow, 
-                        where every amenity is crafted to exceed your expectations, 
+                        Experience unparalleled luxury and comfort at The Lotus Bungalow,
+                        where every amenity is crafted to exceed your expectations,
                         ensuring unforgettable memories that last a lifetime
                     </span>
                 </div>
                 <div class="activities md:grid md:gap-4 px-6 md:grid-cols-3 flex flex-col gap-y-6">
                     <div class="activity  bg-slate-50 flex flex-col p-6 bg-opacity-5 border rounded-lg">
-                        <span class="text-white fw-bold text-center"><i class='fas text-warning m-left'>&#xf52b;</i>24/7 Reception</span>
+                        <span class="text-white fw-bold text-center"><i class='fas text-warning m-left'>&#xf52b;</i>24/7
+                            Reception</span>
                         <span class="text-white">
-                            Our 24/7 reception ensures that assistance and services are available to our 
+                            Our 24/7 reception ensures that assistance and services are available to our
                             guests at any hour, day or night, providing seamless support throughout their stay.
                         </span>
                     </div>
                     <div class="activity  bg-slate-50 flex flex-col p-6 bg-opacity-5 border rounded-lg">
-                        <span class="text-white fw-bold text-center"><i class="fa text-warning m-left">&#xf1eb;</i>Free Wi-Fi</span>
+                        <span class="text-white fw-bold text-center"><i class="fa text-warning m-left">&#xf1eb;</i>Free
+                            Wi-Fi</span>
                         <span class="text-white">
-                            Enjoy complimentary Wi-Fi throughout the hotel, ensuring you stay connected and productive during your entire visit.
+                            Enjoy complimentary Wi-Fi throughout the hotel, ensuring you stay connected and productive
+                            during your entire visit.
                         </span>
                     </div>
                     <div class="activity  bg-slate-50 flex flex-col p-6 bg-opacity-5 border rounded-lg">
-                        <span class="text-white fw-bold text-center"><i class='fas text-warning m-left'>&#xf5c4;</i>Swimming Pool</span>
+                        <span class="text-white fw-bold text-center"><i
+                                class='fas text-warning m-left'>&#xf5c4;</i>Swimming Pool</span>
                         <span class="text-white">
-                            Take a refreshing dip in our swimming pool, available for your leisure and relaxation throughout your stay.
+                            Take a refreshing dip in our swimming pool, available for your leisure and relaxation
+                            throughout your stay.
                         </span>
                     </div>
                     <div class="activity  bg-slate-50 flex flex-col p-6 bg-opacity-5 border rounded-lg">
-                        <span class="text-white fw-bold text-center"><i class='fas text-warning m-left'>&#xf818;</i>Restaurant & Pizzeria</span>
+                        <span class="text-white fw-bold text-center"><i
+                                class='fas text-warning m-left'>&#xf818;</i>Restaurant & Pizzeria</span>
                         <span class="text-white">
-                            Indulge in a variety of culinary delights at our on-site restaurant, offering delicious dishes to satisfy every palate.
+                            Indulge in a variety of culinary delights at our on-site restaurant, offering delicious
+                            dishes to satisfy every palate.
                         </span>
                     </div>
                     <div class="activity  bg-slate-50 flex flex-col p-6 bg-opacity-5 border rounded-lg">
-                        <span class="text-white fw-bold text-center"><i class="fas fa-utensils text-warning m-left"></i> Room Service</span>
+                        <span class="text-white fw-bold text-center"><i class="fas fa-utensils text-warning m-left"></i>
+                            Room Service</span>
                         <span class="text-white">
-                            Enjoy the convenience of our room service, delivering delicious meals and beverages straight to your door.
+                            Enjoy the convenience of our room service, delivering delicious meals and beverages straight
+                            to your door.
                         </span>
                     </div>
                     <div class="activity  bg-slate-50 flex flex-col p-6 bg-opacity-5 border rounded-lg">
-                        <span class="text-white fw-bold text-center"><i class="fas fa-umbrella-beach m-left text-warning"></i>Garden or Terrace</span>
+                        <span class="text-white fw-bold text-center"><i
+                                class="fas fa-umbrella-beach m-left text-warning"></i>Garden or Terrace</span>
                         <span class="text-white">
-                            Relax and unwind in our serene garden or on the terrace, perfect for enjoying the outdoors in a peaceful setting.
+                            Relax and unwind in our serene garden or on the terrace, perfect for enjoying the outdoors
+                            in a peaceful setting.
                         </span>
                     </div>
                 </div>
@@ -428,7 +467,7 @@
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">
                 <p class="col-lg-8 col-sm-12 footer-text m-0">
-                    Copyright &copy; All rights reserved | Designed <i class="fa fa-heart-o" aria-hidden="true"></i> by 
+                    Copyright &copy; All rights reserved | Designed <i class="fa fa-heart-o" aria-hidden="true"></i> by
                     <a href="#" target="_blank">Abegà & Ando_Mamy</a>
                 <div class="col-lg-4 col-sm-12 footer-social">
                     <a href="https://www.facebook.com/lelotusfoulpointe/"><i class="fa fa-facebook"></i></a>
