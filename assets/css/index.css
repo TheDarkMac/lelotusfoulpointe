@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+    font-family: 'Quicksand';
+}
 a {
     text-decoration: none;
     color: black;
@@ -70,7 +74,8 @@ section {
 }
 
 .m-6 {
-    margin-block: 25dvh;
+    margin-block: 5dvh;
+    margin-inline: auto;
 }
 
 .plates {
@@ -139,4 +144,17 @@ section {
 }
 .Markclr-2 {
     color: #f3c300;
+}
+
+.lgs {
+    width: 300px;
+}
+.m-left {
+    margin-right: 1ch !important;
+}
+.w-7 {
+    width: 70dvw;
+}
+.w-5 {
+    width: 50dvw;
 }
