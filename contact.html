@@ -67,7 +67,7 @@
                         <i class="fa fa-phone text-3xl text-yellow-500"></i>
                     </div>
                     <div class="flex flex-col justify-start">
-                        <span class="text-2xl">+261 34 </span>
+                        <span class="text-2xl">+261 34 31 337 32</span>
                         <span>Mon to Sun 8am to 9pm</span>
                     </div>
                 </div><div class="flex flex-row gap-x-2">
@@ -84,12 +84,20 @@
                 <form action="./" class="flex lg:flex-row flex-col grid-cols-2 lg:h-full gap-x-3 gap-y-6">
                     <div class="flex flex-col gap-4 lg:w-1/2">
                         <input type="text" placeholder="Enter your name" class="p-3 border-2">
-                        <input type="text" placeholder="Enter email adress" class="p-3 border-2">
-                        <input type="text" placeholder="Enter Subject" class="p-3 border-2">
+                        <input type="email" placeholder="Enter email address" class="p-3 border-2" required="">
+                        <input type="text" placeholder="Enter Subject" class="p-3 border-2" required="">
                     </div>
                     <div class="lg:w-1/2">
-                        <textarea class="p-3 resize-none border-2 w-full h-[226px]" placeholder="Enter Message"></textarea>
-                        <button type="button" class="w-full px-6 py-1 bg-lotus-pink2 hover:bg-lotus-violet1 transition-colors duration-300">Send Message</button>
+                        <textarea class="p-3 resize-none border-2 w-full h-[226px]" placeholder="Enter Message" required=""></textarea>
+                        <button id="snd-msg" type="button" class="w-full px-6 py-1 bg-lotus-pink2 hover:bg-lotus-violet1 transition-colors duration-300">
+                            <a href="" class="text-light">Send Message</a>
+                        </button>
+                    </div>
+                    <div id="reservation-bgc">
+                        <div id="successMessage-rsv" class="initial-scale d-flex flex-row align-items-center justify-around text-center">
+                            <i class="fa">&#xf14a;</i>
+                            <p class="mb-0">Reservation success</p>
+                        </div>
                     </div>
                 </form>
             </div>

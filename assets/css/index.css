@@ -162,3 +162,13 @@ section {
     border: solid rgb(166, 166, 166) 0.5px;
     padding: 2.5ch;
 }
+.initial-scale {
+    transform: scale(0);
+}
+.Rsrv-succes {
+    background-color: rgba(2, 179, 2, 0.918);
+    border-radius: 8px;
+    padding-inline: 2ch;
+    padding-block: 1ch;
+    color: white;
+}

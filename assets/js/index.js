@@ -4,6 +4,22 @@ const navlist = document.querySelector('#navlist');
 const burger1 = document.querySelector('.burger1')
 const burger2 = document.querySelector('.burger2')
 const burger3 = document.querySelector('.burger3')
+const messageBtn = document.getElementById('snd-msg');
+const inputs = document.getElementsByTagName('input');
+const succesMsg = document.getElementById('successMessage-rsv')
+
+messageBtn.addEventListener('click', () => {
+    setTimeout(() => {
+        succesMsg.classList.remove('initial-scale');
+        succesMsg.classList.add('Rsrv-succes');
+    }, 100);
+    setTimeout(() => {
+        succesMsg.classList.remove('Rsrv-succes');
+        succesMsg.classList.add('initial-scale')
+        inputs.value = '';
+    }, 2000)
+    
+})
 
 setInterval(()=>{
     if(document.documentElement.scrollTop>50){
