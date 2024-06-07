@@ -61,23 +61,79 @@
     </header>
     <main class="relative">
         <section id="booking" class="px-24 w-screen z-10 lg:absolute lg:top-[-33vh]">
-            <div class="bg-white w-full flex md:flex-row flex-col items-center justify-between p-10">
-                <div class="md:my-0 my-6">BOOK YOUR ROOM</div>
-                <div>
-                    <form action="./" class="flex flex-wrap  bg-transparent gap-7">
-                        <input type="date" name="arrivale" id="arrivale" class="bg-transparent md:w-1/4 border w-full">
-                        <input type="date" name="departure" id="departure" placeholder="Departure Date"
-                            class="bg-transparent md:w-1/4 border w-full">
-                        <input type="number" name="Adulte" id="adulte" placeholder="Adulte"
-                            class="bg-transparent md:w-1/4 border w-full">
-                        <input type="number" name="child" id="child" placeholder="Child"
-                            class="bg-transparent md:w-1/4 border w-full">
-                        <input type="number" name="child" id="child1" placeholder="Child"
-                            class="bg-transparent md:w-1/4 border w-full">
-                        <input type="button" value="Book Now" class="px-8 py-2 bkng md:w-1/4 border w-full">
-                    </form>
+            <div class="hotel_booking_area position bg-white py-6">
+                <div class="container">
+                  <div class="hotel_booking_table flex flex-col">
+                    <div class="col-md-3 w-full">
+                      <h2>Book Your Room</h2>
+                    </div>
+                    <div class="col-md-9 w-full flex flex-col">
+                      <div class="booking_table">
+                        <div class="row flex flex-wrap">
+                          <div class="col-md-4 w-full px-4"> <div class="book_tabel_item">
+                              <div class="form-group my-1">
+                                <div class="input-group date" id="datetimepicker11">
+                                  <input type="text" class="form-control rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500" placeholder="Arrival Date">
+                                  <span class="input-group-addon rounded-md px-3 py-2">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="form-group my-1">
+                                <div class="input-group date" id="datetimepicker1">
+                                  <input type="text" class="form-control rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500" placeholder="Departure Date">
+                                  <span class="input-group-addon rounded-md px-3 py-2">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 w-full px-4"> <div class="book_tabel_item">
+                              <div class="input-group my-1">
+                                <select class="wide border rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
+                                  <option data-display="Adult">Adult</option>
+                                  <option value="1">Old</option>
+                                  <option value="2">Younger</option>
+                                  <option value="3">Potato</option>
+                                </select>
+                              </div>
+                              <div class="input-group my-1">
+                                <select class="wide border rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
+                                  <option data-display="Child">Child</option>
+                                  <option value="1">Child</option>
+                                  <option value="2">Baby</option>
+                                  <option value="3">Child</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4 w-full px-4"> <div class="book_tabel_item">
+                              <div class="input-group my-1">
+                                <select class="wide rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-primary-500">
+                                  <option data-display="Child">Number of Bungalow</option>
+                                  <option value="1">Bungalow 1</option>
+                                  <option value="2">Bungalow 2</option>
+                                  <option value="3">Bungalow 3</option>
+                                  <option value="4">Bungalow 4</option>
+                                  <option value="5">Bungalow 5</option>
+                                  <option value="6">Bungalow 6</option>
+                                  <option value="7">Bungalow 7</option>
+                                  <option value="8">Bungalow 8</option>
+                                  <option value="9">Bungalow 9</option>
+                                  <option value="10">Bungalow 10</option>
+                                </select>
+                              </div>
+                              <a href="#" class="book_now_btn button_hover bg-primary-500 text-white rounded-md px-4 py-2 hover:bg-primary-700 bg-lotus-pink2 hover:bg-lotus-violet1 my-1">Book Now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </div>
+              
         </section>
         <section id="accomodation">
             <div class="lg:h-1/4 flex flex-col justify-center items-center my-6 text-center">
